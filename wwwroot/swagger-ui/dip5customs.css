@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.topbar-wrapper a.link img {
+    /*background: url("../logo.png") no-repeat;*/
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    /*height: 45px;*/
+    padding-left: 0px;
+    /*    background-position: 0px;
+    background-size: 50%;*/
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+    text-align: right;
+    margin-right: 10px;
+    background-color: #eee;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.swagger-ui .opblock .opblock-summary-operation-id {
+    display: none;
+}
+
+input[type="text"] {
+    padding: 5px 8px;
+}
+.parameter__default.renderedMarkdown p {
+font-size:10px;
+}
+input[type="text"],
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui .parameter__deprecated,
+.swagger-ui .parameter__in {
+    font-size: 12px;
+}

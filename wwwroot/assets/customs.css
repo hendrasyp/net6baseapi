@@ -1,0 +1,105 @@
+span.help {
+    font-size: 10px;
+    font-style: italic;
+    color: #b78901;
+}
+
+label.error {
+    font-size: 10px;
+    font-style: italic;
+    color: #FFB70101;
+    float: right;
+}
+
+.numeric {
+    text-align: right;
+}
+
+/*MODAL*/
+h4#kiModalHeader {
+    font-size: 1.2rem;
+}
+
+.modal-header {
+    padding: .5rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+/* DATATABLE */
+
+table.dataTable thead tr th {
+    background-color: #86acd5;
+}
+
+tr.selected td a {
+    color: #dedbf9 !important;
+}
+
+table.dataTable tbody tr.odd td {
+    background-color: #E2E4FF;
+}
+
+table.dataTable tbody tr.even td {
+    background-color: white;
+}
+
+/*table.nowrap {*/
+/*    white-space: nowrap !important;*/
+/*}*/
+
+/*div.dataTables_wrapper.extended {*/
+/*    max-width: 1920px !important;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+table.dataTable tbody tr.selected,
+table.dataTable tbody tr.selected td,
+table.dataTable tbody th.selected,
+table.dataTable tbody td.selected {
+    color: white;
+}
+
+table.dataTable tbody > tr.selected,
+table.dataTable tbody > tr.selected td,
+table.dataTable tbody > tr > .selected {
+    background-color: #08C !important;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* BORDER RADIUS */
+.input-group-sm > .input-group-append > .input-group-text,
+.input-group-sm > .form-control,
+.nav-item,
+.page-link,
+.alert,
+.modal-content,
+.small-box,
+.input-group-text,
+.form-control,
+.btn,
+.card,
+.card-header,
+.card-body,
+.select2-container--bootstrap4 .select2-selection,
+.select2-search--dropdown .select2-search__field,
+.select2-container--bootstrap4 .select2-dropdown.select2-dropdown--below,
+.card-footer {
+    border-radius: 0px;
+}
+
+.form-group {
+    margin-bottom: .25rem;
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 600;
+}
